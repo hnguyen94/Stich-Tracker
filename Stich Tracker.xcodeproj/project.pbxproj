@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCDB2D923D6F0D400EBBDB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDB2D823D6F0D400EBBDB5 /* AppDelegate.swift */; };
+		ECCDB2DB23D6F0D400EBBDB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDB2DA23D6F0D400EBBDB5 /* SceneDelegate.swift */; };
+		ECCDB2DD23D6F0D400EBBDB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDB2DC23D6F0D400EBBDB5 /* ContentView.swift */; };
+		ECCDB2DF23D6F0D600EBBDB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCDB2DE23D6F0D600EBBDB5 /* Assets.xcassets */; };
+		ECCDB2E223D6F0D600EBBDB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCDB2E123D6F0D600EBBDB5 /* Preview Assets.xcassets */; };
+		ECCDB2E523D6F0D600EBBDB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCDB2E323D6F0D600EBBDB5 /* LaunchScreen.storyboard */; };
+		ECCDB2F023D6F0D600EBBDB5 /* Stich_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDB2EF23D6F0D600EBBDB5 /* Stich_TrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCDB2EC23D6F0D600EBBDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCDB2CD23D6F0D400EBBDB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCDB2D423D6F0D400EBBDB5;
+			remoteInfo = "Stich Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECCDB2D523D6F0D400EBBDB5 /* Stich Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stich Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCDB2D823D6F0D400EBBDB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECCDB2DA23D6F0D400EBBDB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECCDB2DC23D6F0D400EBBDB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECCDB2DE23D6F0D600EBBDB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECCDB2E123D6F0D600EBBDB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECCDB2E423D6F0D600EBBDB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECCDB2E623D6F0D600EBBDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCDB2EB23D6F0D600EBBDB5 /* Stich TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stich TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCDB2EF23D6F0D600EBBDB5 /* Stich_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stich_TrackerTests.swift; sourceTree = "<group>"; };
+		ECCDB2F123D6F0D600EBBDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCDB2D223D6F0D400EBBDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCDB2E823D6F0D600EBBDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCDB2CC23D6F0D400EBBDB5 = {
+			isa = PBXGroup;
+			children = (
+				ECCDB2D723D6F0D400EBBDB5 /* Stich Tracker */,
+				ECCDB2EE23D6F0D600EBBDB5 /* Stich TrackerTests */,
+				ECCDB2D623D6F0D400EBBDB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCDB2D623D6F0D400EBBDB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCDB2D523D6F0D400EBBDB5 /* Stich Tracker.app */,
+				ECCDB2EB23D6F0D600EBBDB5 /* Stich TrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCDB2D723D6F0D400EBBDB5 /* Stich Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				ECCDB2D823D6F0D400EBBDB5 /* AppDelegate.swift */,
+				ECCDB2DA23D6F0D400EBBDB5 /* SceneDelegate.swift */,
+				ECCDB2DC23D6F0D400EBBDB5 /* ContentView.swift */,
+				ECCDB2DE23D6F0D600EBBDB5 /* Assets.xcassets */,
+				ECCDB2E323D6F0D600EBBDB5 /* LaunchScreen.storyboard */,
+				ECCDB2E623D6F0D600EBBDB5 /* Info.plist */,
+				ECCDB2E023D6F0D600EBBDB5 /* Preview Content */,
+			);
+			path = "Stich Tracker";
+			sourceTree = "<group>";
+		};
+		ECCDB2E023D6F0D600EBBDB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECCDB2E123D6F0D600EBBDB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECCDB2EE23D6F0D600EBBDB5 /* Stich TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCDB2EF23D6F0D600EBBDB5 /* Stich_TrackerTests.swift */,
+				ECCDB2F123D6F0D600EBBDB5 /* Info.plist */,
+			);
+			path = "Stich TrackerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCDB2D423D6F0D400EBBDB5 /* Stich Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCDB2F423D6F0D600EBBDB5 /* Build configuration list for PBXNativeTarget "Stich Tracker" */;
+			buildPhases = (
+				ECCDB2D123D6F0D400EBBDB5 /* Sources */,
+				ECCDB2D223D6F0D400EBBDB5 /* Frameworks */,
+				ECCDB2D323D6F0D400EBBDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stich Tracker";
+			productName = "Stich Tracker";
+			productReference = ECCDB2D523D6F0D400EBBDB5 /* Stich Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCDB2EA23D6F0D600EBBDB5 /* Stich TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCDB2F723D6F0D600EBBDB5 /* Build configuration list for PBXNativeTarget "Stich TrackerTests" */;
+			buildPhases = (
+				ECCDB2E723D6F0D600EBBDB5 /* Sources */,
+				ECCDB2E823D6F0D600EBBDB5 /* Frameworks */,
+				ECCDB2E923D6F0D600EBBDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCDB2ED23D6F0D600EBBDB5 /* PBXTargetDependency */,
+			);
+			name = "Stich TrackerTests";
+			productName = "Stich TrackerTests";
+			productReference = ECCDB2EB23D6F0D600EBBDB5 /* Stich TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCDB2CD23D6F0D400EBBDB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Hoang Nguyen";
+				TargetAttributes = {
+					ECCDB2D423D6F0D400EBBDB5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					ECCDB2EA23D6F0D600EBBDB5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = ECCDB2D423D6F0D400EBBDB5;
+					};
+				};
+			};
+			buildConfigurationList = ECCDB2D023D6F0D400EBBDB5 /* Build configuration list for PBXProject "Stich Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCDB2CC23D6F0D400EBBDB5;
+			productRefGroup = ECCDB2D623D6F0D400EBBDB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCDB2D423D6F0D400EBBDB5 /* Stich Tracker */,
+				ECCDB2EA23D6F0D600EBBDB5 /* Stich TrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCDB2D323D6F0D400EBBDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCDB2E523D6F0D600EBBDB5 /* LaunchScreen.storyboard in Resources */,
+				ECCDB2E223D6F0D600EBBDB5 /* Preview Assets.xcassets in Resources */,
+				ECCDB2DF23D6F0D600EBBDB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCDB2E923D6F0D600EBBDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCDB2D123D6F0D400EBBDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCDB2D923D6F0D400EBBDB5 /* AppDelegate.swift in Sources */,
+				ECCDB2DB23D6F0D400EBBDB5 /* SceneDelegate.swift in Sources */,
+				ECCDB2DD23D6F0D400EBBDB5 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCDB2E723D6F0D600EBBDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCDB2F023D6F0D600EBBDB5 /* Stich_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCDB2ED23D6F0D600EBBDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCDB2D423D6F0D400EBBDB5 /* Stich Tracker */;
+			targetProxy = ECCDB2EC23D6F0D600EBBDB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECCDB2E323D6F0D600EBBDB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCDB2E423D6F0D600EBBDB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECCDB2F223D6F0D600EBBDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECCDB2F323D6F0D600EBBDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCDB2F523D6F0D600EBBDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stich Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q64HL9M7Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stich Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoangduc.Stich-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECCDB2F623D6F0D600EBBDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stich Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q64HL9M7Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stich Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoangduc.Stich-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECCDB2F823D6F0D600EBBDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q64HL9M7Y;
+				INFOPLIST_FILE = "Stich TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoangduc.Stich-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stich Tracker.app/Stich Tracker";
+			};
+			name = Debug;
+		};
+		ECCDB2F923D6F0D600EBBDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q64HL9M7Y;
+				INFOPLIST_FILE = "Stich TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoangduc.Stich-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stich Tracker.app/Stich Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCDB2D023D6F0D400EBBDB5 /* Build configuration list for PBXProject "Stich Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCDB2F223D6F0D600EBBDB5 /* Debug */,
+				ECCDB2F323D6F0D600EBBDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCDB2F423D6F0D600EBBDB5 /* Build configuration list for PBXNativeTarget "Stich Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCDB2F523D6F0D600EBBDB5 /* Debug */,
+				ECCDB2F623D6F0D600EBBDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCDB2F723D6F0D600EBBDB5 /* Build configuration list for PBXNativeTarget "Stich TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCDB2F823D6F0D600EBBDB5 /* Debug */,
+				ECCDB2F923D6F0D600EBBDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCDB2CD23D6F0D400EBBDB5 /* Project object */;
+}
