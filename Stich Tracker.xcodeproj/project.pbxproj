@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		ECCDB2D923D6F0D400EBBDB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDB2D823D6F0D400EBBDB5 /* AppDelegate.swift */; };
 		ECCDB2DB23D6F0D400EBBDB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDB2DA23D6F0D400EBBDB5 /* SceneDelegate.swift */; };
-		ECCDB2DD23D6F0D400EBBDB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDB2DC23D6F0D400EBBDB5 /* ContentView.swift */; };
+		ECCDB2DD23D6F0D400EBBDB5 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDB2DC23D6F0D400EBBDB5 /* StartView.swift */; };
 		ECCDB2DF23D6F0D600EBBDB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCDB2DE23D6F0D600EBBDB5 /* Assets.xcassets */; };
 		ECCDB2E223D6F0D600EBBDB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCDB2E123D6F0D600EBBDB5 /* Preview Assets.xcassets */; };
 		ECCDB2E523D6F0D600EBBDB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCDB2E323D6F0D600EBBDB5 /* LaunchScreen.storyboard */; };
 		ECCDB2F023D6F0D600EBBDB5 /* Stich_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDB2EF23D6F0D600EBBDB5 /* Stich_TrackerTests.swift */; };
+		ECCDB2FC23D6F5D900EBBDB5 /* AddPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDB2FB23D6F5D900EBBDB5 /* AddPlayerView.swift */; };
+		ECF7327123D6FA740044F320 /* PlayerNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF7327023D6FA740044F320 /* PlayerNameView.swift */; };
+		ECF7327423D700B00044F320 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF7327323D700B00044F320 /* Player.swift */; };
+		ECF7327623D7059D0044F320 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF7327523D7059D0044F320 /* GameBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +34,7 @@
 		ECCDB2D523D6F0D400EBBDB5 /* Stich Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stich Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCDB2D823D6F0D400EBBDB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECCDB2DA23D6F0D400EBBDB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECCDB2DC23D6F0D400EBBDB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECCDB2DC23D6F0D400EBBDB5 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		ECCDB2DE23D6F0D600EBBDB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCDB2E123D6F0D600EBBDB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ECCDB2E423D6F0D600EBBDB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +42,10 @@
 		ECCDB2EB23D6F0D600EBBDB5 /* Stich TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stich TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCDB2EF23D6F0D600EBBDB5 /* Stich_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stich_TrackerTests.swift; sourceTree = "<group>"; };
 		ECCDB2F123D6F0D600EBBDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCDB2FB23D6F5D900EBBDB5 /* AddPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerView.swift; sourceTree = "<group>"; };
+		ECF7327023D6FA740044F320 /* PlayerNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNameView.swift; sourceTree = "<group>"; };
+		ECF7327323D700B00044F320 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		ECF7327523D7059D0044F320 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +87,10 @@
 		ECCDB2D723D6F0D400EBBDB5 /* Stich Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				ECF7327223D7009B0044F320 /* Models */,
+				ECCDB2FA23D6F5BD00EBBDB5 /* StartScreen */,
 				ECCDB2D823D6F0D400EBBDB5 /* AppDelegate.swift */,
 				ECCDB2DA23D6F0D400EBBDB5 /* SceneDelegate.swift */,
-				ECCDB2DC23D6F0D400EBBDB5 /* ContentView.swift */,
 				ECCDB2DE23D6F0D600EBBDB5 /* Assets.xcassets */,
 				ECCDB2E323D6F0D600EBBDB5 /* LaunchScreen.storyboard */,
 				ECCDB2E623D6F0D600EBBDB5 /* Info.plist */,
@@ -105,6 +114,25 @@
 				ECCDB2F123D6F0D600EBBDB5 /* Info.plist */,
 			);
 			path = "Stich TrackerTests";
+			sourceTree = "<group>";
+		};
+		ECCDB2FA23D6F5BD00EBBDB5 /* StartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ECCDB2DC23D6F0D400EBBDB5 /* StartView.swift */,
+				ECCDB2FB23D6F5D900EBBDB5 /* AddPlayerView.swift */,
+				ECF7327023D6FA740044F320 /* PlayerNameView.swift */,
+			);
+			path = StartScreen;
+			sourceTree = "<group>";
+		};
+		ECF7327223D7009B0044F320 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECF7327323D700B00044F320 /* Player.swift */,
+				ECF7327523D7059D0044F320 /* GameBoard.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +238,11 @@
 			files = (
 				ECCDB2D923D6F0D400EBBDB5 /* AppDelegate.swift in Sources */,
 				ECCDB2DB23D6F0D400EBBDB5 /* SceneDelegate.swift in Sources */,
-				ECCDB2DD23D6F0D400EBBDB5 /* ContentView.swift in Sources */,
+				ECF7327123D6FA740044F320 /* PlayerNameView.swift in Sources */,
+				ECF7327623D7059D0044F320 /* GameBoard.swift in Sources */,
+				ECCDB2DD23D6F0D400EBBDB5 /* StartView.swift in Sources */,
+				ECF7327423D700B00044F320 /* Player.swift in Sources */,
+				ECCDB2FC23D6F5D900EBBDB5 /* AddPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
